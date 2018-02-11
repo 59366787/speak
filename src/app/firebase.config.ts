@@ -1,8 +1,8 @@
 export const firebaseConfig = {
-    apiKey: 'AIzaSyA9safPzqKCi7SBv7xPtv7Wyl0OPmyhe60',
-    authDomain: 'speak-31c53.firebaseapp.com',
-    databaseURL: 'https://speak-31c53.firebaseio.com',
-    projectId: 'speak-31c53',
-    storageBucket: 'speak-31c53.appspot.com',
-    messagingSenderId: '486710710693'
+    apiKey: "AIzaSyC3m1m_HWs5jpAEM3R2vxGUukbPK69rJpc",
+    authDomain: "first-abd30.firebaseapp.com",
+    databaseURL: "https://first-abd30.firebaseio.com",
+    projectId: "first-abd30",
+    storageBucket: "first-abd30.appspot.com",
+    messagingSenderId: "623879623874"
 }

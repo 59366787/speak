@@ -12,7 +12,8 @@ import { CategoryComponent } from './components/category/category.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AddCategoryComponent } from './components/add-category/add-category.component';
 import { ModalService } from './services/modal.service';
-
+import { FormsModule } from '@angular/forms';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 const routes: Routes = [
   { path: 'category', component: CategoryComponent },
   { path: 'home', component: HomeComponent },
@@ -33,7 +34,9 @@ const routes: Routes = [
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
     RouterModule.forRoot(routes),
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    FormsModule,
+    AngularFireDatabaseModule
   ],
   entryComponents: [
     AddCategoryComponent
